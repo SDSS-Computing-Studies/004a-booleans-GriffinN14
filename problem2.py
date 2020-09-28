@@ -10,3 +10,8 @@
 # Outputs:
 # "the number is an integer"
 # "the number is not an integer"
+userip = input("Enter number ")
+if float(userip) % float(1) :
+    print ("the number is not an integer")
+else:
+    print ("the number is an integer")
