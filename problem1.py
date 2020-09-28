@@ -11,3 +11,8 @@
 # Outputs:
 # "the number is even"
 # "the number is odd"
+userip = input("Enter number ")
+if float(userip) % float(2) :
+    print ("the number is odd")
+else:
+    print ("the number is even")
