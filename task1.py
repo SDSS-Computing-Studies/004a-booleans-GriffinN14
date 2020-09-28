@@ -11,3 +11,9 @@
 # "The number is larger than 100"
 # "The number is smaller than 100"
 # "The number is 100"
+userip = input("Enter number ")
+if int(userip) > 100 :
+   print ("The number is larger than 100")
+else:
+    print ("The number is smaller than 100")
+print ("The number is " + userip)
