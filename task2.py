@@ -10,3 +10,10 @@
 # - "positive"
 # - "negative"
 # - "zero"
+userip = input("Enter number ")
+if int(userip) > 0:
+    print ("positive")
+elif int(userip) < 0:
+    print("negative")
+else:
+    print("zero")
