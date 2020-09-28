@@ -9,3 +9,8 @@
 # Outputs:
 # "the sentence contains password"
 # "the sentence does not contain password"
+userip = input("Enter sentace with \"password\" or not with ")
+if ("password") in userip:
+    print ("the sentence contains password")
+else:
+    print ("the sentence does not contain password")
