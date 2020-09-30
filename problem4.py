@@ -43,9 +43,9 @@ else:
     else:
         b = n1
         c = n2
-if (userip1 * userip1 + userip2 * userip2)==(userip3*userip3):
+if (a * a + b * b)==(c*c):
     print ("that is a right triangle")
-elif (userip1 * userip1 + userip2 * userip2)>(userip3*userip3):
+elif (a * a + b * b)>(c*c):
     print ("that is an acute triangle")
 else:
     print ("that is an obtuse triangle")
