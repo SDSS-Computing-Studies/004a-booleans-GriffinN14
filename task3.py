@@ -26,3 +26,5 @@ elif int(userip) >= 10:
     print("The number is 10 or a number up to 100")
 elif int(userip) >= 0:
     print ("The number is 0 or a number up to 10")
+else:
+    print("")
