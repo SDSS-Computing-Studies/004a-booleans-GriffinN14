@@ -24,5 +24,5 @@ elif int(userip) >= 100:
     print("The number is 100 or a number up to 1000")
 elif int(userip) >= 10:
     print("The number is 10 or a number up to 100")
-else:
+elif int(userip) >= 0:
     print ("The number is 0 or a number up to 10")
