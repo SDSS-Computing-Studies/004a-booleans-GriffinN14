@@ -16,9 +16,9 @@ import math
 userip1 = input("Enter number 1 ")
 userip2 = input("Enter number 2 ")
 userip3 = input("Enter number 3 ")
-n1 = int(userip1)
-n2 = int(userip2)
-n3 = int(userip3)
+n1 = float(userip1)
+n2 = float(userip2)
+n3 = float(userip3)
 if n1 < n2 and n1 < n3:
     a = n1
     if n2 < n3:
