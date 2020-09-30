@@ -6,3 +6,18 @@
 # If they get the password correct (password is 12345password) 
 # then display the message "Access granted"
 # 1 marks
+username = ("admin")
+password = ("12345password")
+ug = ("")
+pg = ("")
+while not pg == password:
+    ug = input("Enter username ")
+    if ug == username :
+        pg = input("Enter password ")
+        if pg == password:
+            break
+        else:
+            print ("invalid password")
+    else:
+        print ("invalid user")
+print("Access granted")
