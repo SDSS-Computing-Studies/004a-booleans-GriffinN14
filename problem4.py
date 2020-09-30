@@ -15,7 +15,7 @@
 import math
 userip1 = input("Enter number 1 ")
 userip2 = input("Enter number 2 ")
-userip3 = input("Enter number 3 make this number highr than the two before it ")
+userip3 = input("Enter number 3 make this number higher than the two before it ")
 userip1 = float(userip1)
 userip2 = float(userip2)
 userip3 = float(userip3)
