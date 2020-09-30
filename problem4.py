@@ -15,10 +15,34 @@
 import math
 userip1 = input("Enter number 1 ")
 userip2 = input("Enter number 2 ")
-userip3 = input("Enter number 3 make this number higher than the two before it ")
-userip1 = float(userip1)
-userip2 = float(userip2)
-userip3 = float(userip3)
+userip3 = input("Enter number 3 ")
+n1 = float(userip1)
+n2 = float(userip2)
+n3 = float(userip3)
+if n1 < n2 and n1 < n3:
+    a = n1
+    if n2 < n3:
+        b = n2
+        c = n3
+    else:
+        b = n3
+        c = n2
+elif n2 < n1 and n2 < n3:
+    a = n2
+    if n1 < n3:
+        b = n1
+        c = n3
+    else:
+        b = n3
+        c = n1
+else:
+    a = n3
+    if n2 < n1:
+        b = n2
+        c = n1
+    else:
+        b = n1
+        c = n2
 if (userip1 * userip1 + userip2 * userip2)==(userip3*userip3):
     print ("that is a right triangle")
 elif (userip1 * userip1 + userip2 * userip2)>(userip3*userip3):
