@@ -43,9 +43,9 @@ else:
     else:
         b = n1
         c = n2
-if (a * a + b * b)==(c*c):
-    print ("that is a right triangle")
+if (a * a + b * b)<(c*c):
+    print ("that is an obtuse triangle")
 elif (a * a + b * b)>(c*c):
     print ("that is an acute triangle")
 else:
-    print ("that is an obtuse triangle")
+    print ("that is a right triangle")
