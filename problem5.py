@@ -15,3 +15,13 @@
 # Outputs:
 # - "the equation can be factored"
 # - "the equation can not be factored"
+a = input("Enter 1st number")
+b = input("Enter 2nd number")
+c = input("Enter 3rd number")
+a = int(a)
+b = int(b)
+c = int(c)
+if b^ 2 - 4 * a * c == 0:
+    print("the equation can be factored")
+else:
+    print("the equation can not be factored")
