@@ -11,9 +11,9 @@ password = ("12345password")
 ug = ("")
 pg = ("")
 while not pg == password:
-    ug = input("Enter username ")
+    ug = input("Enter username ").strip()
     if ug == username :
-        pg = input("Enter password ")
+        pg = input("Enter password ").strip()
         if pg == password:
             break
         else:
