@@ -18,13 +18,13 @@
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
 userip = input("Enter number ")
-if int(userip) >= 1000:
+if float(userip) >= 1000:
     print("3")
-elif int(userip) >= 100:
+elif float(userip) >= 100:
     print("2")
-elif int(userip) >= 10:
+elif float(userip) >= 10:
     print("1")
-elif int(userip) >= 0:
+elif float(userip) >= 0:
     print ("0")
 else:
     print("")
