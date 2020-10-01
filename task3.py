@@ -17,6 +17,7 @@
 # "2" : The number is 100 or a number up to 1000 
 # "1" : The number is 10 or a number up to 100 
 # "0" : The number is 0 or a number up to 100 
+
 userip = input("Enter number ")
 if float(userip) >= 1000:
     print("3")
